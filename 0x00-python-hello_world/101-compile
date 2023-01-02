@@ -1,4 +1,3 @@
 #!/bin/bash
-pyfile=$PYFILE
-python3 -m py_compile $pyfile
-mv "$pyfile"c "$pyfile"c
+python3 -m py_compile $PYFILE
+mv "$PYFILE"c "$PYFILE"c
