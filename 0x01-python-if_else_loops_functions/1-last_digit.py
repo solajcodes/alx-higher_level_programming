@@ -4,7 +4,7 @@ number = random.randint(-10000, 10000)
 l_digit = abs(number) % 10
 if number < 0:
     l_digit = l_digit * -1
-n_str = "Last digit of {:d} is {:d}".format(number, l_digit)
+n_str = "Last digit of {} is {}".format(number, l_digit)
 
 if l_digit > 5:
     print("{}  and is greater than 5".format(n_str))
