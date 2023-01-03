@@ -7,7 +7,7 @@ if number < 0:
 n_str = "Last digit of {} is {}".format(number, l_digit)
 
 if l_digit > 5:
-    print("{}  and is greater than 5".format(n_str))
+    print("{} and is greater than 5".format(n_str))
 elif l_digit == 0:
     print("{} and is 0".format(n_str))
 else:
